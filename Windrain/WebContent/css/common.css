@@ -5,11 +5,72 @@ body{
 }
 
 #wd-header{
-	height:69px;
+	height:auto;
 	width:100%;
+}
+
+#wd-header .navbar-inner{
+	padding-top:5px;
+	padding-bottom:5px;
 	background:#f10909;
 }
 
+#wd-header .navbar-inner a{
+	font-weight:bold;
+	color:#fff;
+}
+
+#wd-header .navbar-inner a:hover{
+	color:#fcc;
+}
+
+#wd-header .wb-sina{
+	height:16px;
+	width:16px;
+	background-image:url("../img/wb-sina.png");
+	float:right;
+	margin-top:11px;
+}
+
+#wd-header .wb-qq{
+	height:16px;
+	width:16px;
+	background-image:url("../img/wb-qq.png");
+	float:right;
+	margin-right:5px;
+	margin-top:11px;
+}
+
+#wd-header .phone{
+	float:right;
+	margin-right:10px;
+	margin-top:5px;
+}
+
+#wd-header .phone li{
+	height:15px;
+	line-height:15px;
+	text-align:left;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	color:#fff;
+}
+
+
+#wd-header .active a{
+	background:#fef8fa;
+	border-radius: 3px;
+	color:#c41617;
+}
+
+#wd-header .active a:hover{
+	color:#c41617;
+}
+
+#wd-header .nav-collapse{
+	margin-top:10px;
+}
 #wd-body{
 	width:100%;
 	height:auto;
